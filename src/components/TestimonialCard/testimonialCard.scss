@@ -62,6 +62,12 @@
             }
             .profile__details {
                 margin-left: 20px;
+                .detail {
+                    p {
+                        color: #1dafe0;
+                        font-weight: 500;
+                    }
+                }
                 @media screen and (max-width: 500px) {
                     .detail {
                         h1 {
